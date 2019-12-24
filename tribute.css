@@ -7,6 +7,7 @@ body {
   padding: 15px;
   border-radius: 7px;
   background: #DFF0EA;
+  background-image: linear-gradient(#DFF0EA, #B3B7EE);
 }
 
 #img-div {
@@ -44,32 +45,42 @@ body {
 figcaption {
   color: #EEF5DB;
   text-align: center;
+  letter-spacing: 2px;
 }
 
 #tribute-info {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 12px;
+  
  
   
 }
 
-.info1{
+.info{
 background:#F4FFFD;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   
   
 }
-.info2{
-background:#F4FFFD;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
+
 
 .more_info {
-  
+  text-align: center;
+  font-size: 1.4em;
   
 }
 
-.info1 p {
+.info p {
  padding: 1em;
+}
+#footer {
+  background-colour: white;
+  text-align: center;
+}
+
+@media (max-width: 434px) {
+  #tribute-info { grid-template-columns: repeat(1, 1fr);
+  grid-row-gap: 12px;
+  }
 }
