@@ -1,0 +1,54 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 7px;
+  background: #dff0ea;
+}
+
+#img-div {
+  background-color: #242331;
+  padding: 9px;
+  margin: 0;
+}
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+.description {
+  color: #002f35;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#title {
+  font-size: 2rem;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+figcaption {
+  color: #eef5db;
+  text-align: center;
+}
+
+#tribute-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 14px;
+}
+
+.info1 {
+  background: #f4fffd;
+}
+.info2 {
+  background: #f4fffd;
+}
