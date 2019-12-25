@@ -75,6 +75,8 @@ background:#F4FFFD;
 
 .info p {
  padding: 1em;
+ line-height: 1.6;
+ 
 }
 #footer {
   background: white;
@@ -91,6 +93,8 @@ a:hover {
 color: #3EA060;
 
 }
+
+
 
 @media (max-width: 434px) {
   #tribute-info { grid-template-columns: repeat(1, 1fr);
